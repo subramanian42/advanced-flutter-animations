@@ -106,11 +106,11 @@ class _SplashScreenAnimationState extends State<SplashScreenAnimation>
                       alignment: Alignment.center,
                       transform: Matrix4.identity()
                         ..rotateY(_flipAnimation.value),
-                      child: Image.asset(
-                        'assets/logo.png',
-                        width: 200,
-                        height: 200,
-                      ),
+                      // child: Image.asset(
+                      //   'assets/logo.png',
+                      //   width: 200,
+                      //   height: 200,
+                      // ),
                     );
                   },
                 ),
